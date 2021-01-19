@@ -1,0 +1,238 @@
+/* Hier hoef je niks mee te doen */
+*{
+    font-size:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  } 
+
+
+#POLEN{
+    width: 900px;
+    height: 600px;
+    background-color: red;
+    border: 10px solid black;
+}
+#NL{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 10px solid black;
+}
+#FRANKRIJK{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 10px solid black;
+}
+#COLOMBIA{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 10px solid black;
+}
+#Botswana{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 10px solid black;
+}
+#benin{
+    width: 900px;
+    height: 600px;
+    background-color: yellow;
+    border: 10px solid black;
+}
+#chile{
+    width: 900px;
+    height: 600px;
+    background-color: red;
+    border: 10px solid black;
+}
+#denmark{
+    width: 800px;
+    height: 50sSsSs0px;
+    background-color: red;
+    border: 10px solid black;
+}
+#noorwegen{
+    width: 900px;
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 10px solid black;
+}
+
+
+
+/* Hieronder kun je gaan editen */
+
+#polenwit{
+    width: 900px;
+    height: 300px;
+    background-color: red;
+}
+
+#polenr{
+    width: 900px;
+    height: 300px;
+    background-color: white;
+}
+
+#NLRood{
+    width: 900px;
+    height: 200px;
+    background-color: red;
+}
+#NLWit{
+    width: 900px;
+    height: 200px;
+    background-color: white;
+}
+#NLBlauw{
+    width: 900px;
+    height: 200px;
+    background-color: blue;
+}
+#frRood{
+    width: 300px;
+    height: 600px;
+    background-color: red;
+    float: left;
+}
+#frWit{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+ 
+#frBlauw{
+    width: 300px;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+ #COlgeel{
+     width: 100%;
+     height: 300px;
+     background-color: yellow;
+ }
+ #COlblauw{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+ }
+ #COlrood{
+    width: 100%;
+    height: 150px;
+    background-color: red;
+
+ }
+ #Botblauw{
+     width: 100%;
+     height: 210px;
+     background-color: royalblue;
+
+ }
+ #Botwit{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+ }
+ #BotZwart{   
+    width: 100%;
+    height: 135px;
+    background-color: rgb(0, 0, 0);
+ }
+ #Botwit1{   
+    width: 100%;
+    height: 25px;
+    background-color: white;
+ }
+ #Botblauw1{ 
+    width: 100%;
+    height: 210px;
+    background-color: royalblue;
+     
+ }
+ #Bgroen{
+     width: 300px;
+     height: 300px;
+     background-color: blue;
+ }
+ #Brood{
+     width: 900px;
+    height: 300px;
+    background-color: red;
+ }
+
+
+ 
+#chilewit{
+    width: 900px;
+    height: 300px;
+    background-color: white;
+}
+ 
+#chileblauw{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    
+}
+
+
+#D1
+{
+  background: linear-gradient(90deg, transparent, transparent 30%, white 30%, white 40%, transparent 40%, transparent),
+              linear-gradient(0deg, red, red 43%, white 43%, white 58%, red 58%, red);
+  width: 810px;
+  height: 500px;
+}
+ 
+#japan{
+    background: radial-gradient(350px at 50% 50%,  #BC002D 0, #bc002d 35%, transparent 35%, transparent 100%), white;
+  }
+
+
+  #japan{
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    border: 10px solid black;
+}
+
+
+
+
+
+
+
+
+

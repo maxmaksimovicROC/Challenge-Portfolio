@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Vlaggen/1-polen/index.html">Vlaggen</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a class="active" href="#about">About</a></li>
+      </ul>
+    
+
+<table style="width: 1000px;">
+    <thead>
+    <tr>
+    <th>Mijn skills</th>
+    
+    </tr>
+    </thead>
+    <tr>
+
+        
+        <td>basic css</td>
+        <td>basic html</td> 
+
+
+    </tr>
+    <tr>
+        <th>Jouw gegevens</th>
+    </tr>
+    <tr>
+        <td id="name">...</td>
+        <td id="email">...</td>
+        
+    </tr>
+    <tr>
+        <td id="age">...</td>
+        <td id="woonplaats">...</td>
+    </tr>
+</table>
+    
+
+
+<script>
+        let name = prompt("Wat is je naam")
+        let nameid = document.querySelector("#name")
+        nameid.innerHTML = name
+      
+        let email = prompt("Vul je email in")
+        let emailid = document.querySelector("#email")
+        emailid.innerHTML = email
+
+        let age = prompt("Hoe oud ben je")
+        let ageid = document.querySelector("#age")
+        ageid.innerHTML = age
+    
+        let woonplaats = prompt("Vul je woon plaats in")
+        let woonplaatsid = document.querySelector("#woonplaats")
+        woonplaatsid.innerHTML =  woonplaats
+        
+        let bezoeker ={
+            voornaam : name,
+            email : email,
+            leeftijd : age,
+            woonplaats : woonplaats
+        }
+        
+        console.log(bezoeker);
+        
+        if(age == 16)
+            {
+                document.body.style.background = "#ff9900"
+            }
+        
+        if(age == 17)
+            {
+                document.body.style.background = "#0000FF"
+            }
+        if(age == 18)
+            {
+                document.body.style.background = "#ffcc00"
+            }
+        
+        
+        if(age == 19)
+            {
+                document.body.style.background = "#008000"
+            }
+        if(age >= 20)
+            {
+                document.body.style.background = "#cc66ff"
+            }
+        if(age <= 15)
+            {
+                document.body.style.background = "#cc66FF"
+            }
+    </script>
+
+</body>
+</html>
